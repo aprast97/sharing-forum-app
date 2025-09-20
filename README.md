@@ -37,4 +37,5 @@ project/
   - Like: [Gregor Cresnar](https://www.flaticon.com/free-icons/like)  
   - Comment: [Icon Smart](https://www.flaticon.com/free-icons/instagram-comment)  
   - Delete: [Graphics Plazza](https://www.flaticon.com/free-icons/miscellaneous)  
-  - Emoji mood diambil dari [Quackit Unicode Emoji v3.0](https://www.quackit.com/character_sets/emoji/emoji_v3.0/unicode_emoji_v3.0_characters_all.cfm)
+- Emoji mood diambil dari [Quackit Unicode Emoji v3.0](https://www.quackit.com/character_sets/emoji/emoji_v3.0/unicode_emoji_v3.0_characters_all.cfm)
+
