@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum Berbagi Cerita</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Forum Berbagi Cerita</h1>
+            <p>Bagikan ceritamu disini!</p>
+        </div>
+
+        <div class="mood-section">
+            <p class="mood-title">Apa yang sedang kamu rasakan saat ini?</p>
+        </div>
+
+        <div class="mood-selector">
+            <div class="mood-option" data-mood="senang">
+                <span class="mood-emoji">&#x1F600;</span>
+                <div class="mood-label">Senang</div>
+            </div>
+            <div class="mood-option" data-mood="sedih">
+                <span class="mood-emoji">&#x1F622;</span>
+                <div class="mood-label">Sedih</div>
+            </div>
+            <div class="mood-option" data-mood="marah">
+                <span class="mood-emoji">&#x1F621;</span>
+                <div class="mood-label">Marah</div>
+            </div>
+            <div class="mood-option" data-mood="stress">
+                <span class="mood-emoji">&#x1F62B;</span>
+                <div class="mood-label">Stress</div>
+            </div>
+            <div class="mood-option" data-mood="kecewa">
+                <span class="mood-emoji">&#x1F61E;</span>
+                <div class="mood-label">Kecewa</div>
+            </div>
+        </div>
+
+        <div class="form-container hidden">
+            <form id="storyForm">
+                <div class="input-group">
+                    <label for="authorName">Nama kamu</label>
+                    <input type="text" id="authorName" placeholder="Masukkan nama kamu" required>
+                </div>
+                <div class="input-group">
+                    <label for="storyText">Masukin cerita kamu</label>
+                    <textarea id="storyText" placeholder="Tulis ceritamu disini..." required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Bagikan</button>
+            </form>
+        </div>
+
+        <div class="posts-container" id="postsContainer">
+            <!-- Post akan ditambahkan di sini -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
