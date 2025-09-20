@@ -21,10 +21,10 @@ Pengguna bisa memilih mood, menulis cerita, memberi suka, menambahkan komentar, 
 
 ## Struktur Folder
 project/
-├── index.html # Halaman utama
-├── style.css # Styling aplikasi
-├── script.js # Logika interaktif (post, like, comment, delete)
-└── icons/ # Folder ikon (like, comment, delete)
+index.html # Halaman utama
+style.css # Styling aplikasi
+script.js # Logika interaktif (post, like, comment, delete)
+icons/ # Folder ikon (like, comment, delete)
 
 
 ## Cara Menjalankan
@@ -38,4 +38,5 @@ project/
   - Comment: [Icon Smart](https://www.flaticon.com/free-icons/instagram-comment)  
   - Delete: [Graphics Plazza](https://www.flaticon.com/free-icons/miscellaneous)  
 - Emoji mood diambil dari [Quackit Unicode Emoji v3.0](https://www.quackit.com/character_sets/emoji/emoji_v3.0/unicode_emoji_v3.0_characters_all.cfm)
+
 
